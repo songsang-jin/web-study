@@ -1,0 +1,328 @@
+@charset "UTF-8";
+
+/* 폰트 */
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    font-family:'S-CoreDream-3Light';
+}
+
+/*reset side시작*/
+*{
+	margin: 0;
+	padding: 0;
+} 
+
+/*==== 주문상세페이지 ====*/
+
+ #container{
+ 	position: absolute;	
+    margin-left:310px;
+  	min-height: 80%;  
+    padding-left:5%;
+	padding-right:5%;	
+  }
+.header {
+	width: 68%;
+	margin-left: 430px;
+}
+.goods_detail_title{
+	font-size:24px;
+	text-align:center;
+}
+.goods_detail_wrap{
+	margin-bottom:-400px;
+}
+/* 썸네일 사진 */
+.small_img img{
+	border:none;
+	margin:10px;
+	width:60px;
+	height:60px;
+}
+.large_img img{
+	border:none;
+	margin:10px;
+	width:300px;
+	height:250px;
+}
+/* 상품정보 */
+.goods_detail_info_table table{
+	border-spacing: 0 20px;
+}
+/* 가격,주문수량 */
+.goods_price{ 
+	margin:5px 0 5px 0;
+}
+.button_quantity{
+	margin:5px 0 5px 0;
+}
+/* 장바구니,관심상품,구매 버튼 */
+.goods_detail_info{
+	font-size:20px;
+}
+.button_set{
+	margin-top:25px;
+	margin-left:-25px;
+}
+.goods_cart{
+	margin:10px;
+	color:black;
+	border-color:#c9c9b2;
+}
+.goods_wish{
+	margin:10px;
+	color:black;
+	border-color:#c9c9b2;
+}
+.goods_pay{
+	margin:10px;
+	color:black;
+	border-color:#c9c9b2;
+}
+.goods_cart:hover{
+	margin:10px;
+	color:black;
+	border-color:black;
+	border-width: 2px;
+}
+.goods_wish:hover{
+	margin:10px;
+	color:black;
+	border-color:black;
+	border-width: 2px;
+}
+.goods_pay:hover{
+	margin:10px;
+	color:black;
+	border-color:black;
+	border-width: 2px;
+}
+/* 주문상세페이지 상세정보 */
+.goods_detail_little_title{
+	margin:50px;
+}
+.product_detail img{
+	border:none;
+	margin:10px;
+	width:1120px;
+}
+.detail_view img{
+	border:none;
+	margin:10px;
+	width:1120px;
+}
+.goods_guide_wrap{
+	margin-left:15px;
+}
+.goods_guide{
+	margin-top:30px;
+}
+
+/* ====커뮤니티 게시판==== */
+.community_notice_header{
+		width:900px;
+		margin-bottom:20px;
+		padding:15px;
+		border-bottom: 1px solid #c9c9b2;
+	}
+.community_notice_header{
+		width:900px;
+		margin-bottom:20px;
+		padding:15px;
+		border-bottom: 1px solid #c9c9b2;
+	}
+.community_notice_header_title{
+		font-size:20px;
+		width:600px;
+		margin-left:20px;
+		text-align:left;
+	}
+.community_notice_header_writer{
+		font-size:12px;
+		width:150px;
+		text-align:center;
+	}
+.community_notice_header_readcnt{
+		font-size:12px;
+		width:100px;
+		text-align:center;
+	}
+.community_notice_header_date{
+		font-size:12px;
+		width:100px;
+		text-align:center;
+	}
+.community_notice_content_table{
+		border:2px solid #c9c9b2;
+		width:900px; 
+		min-height:150px;
+		text-align:center;
+		margin-bottom:15px;
+	}
+.community_notice_content_table{
+		border:2px solid #c9c9b2;
+		text-align:left;
+	}
+.community_notice_table2{
+		float:right;
+		width:900px; 
+	}	
+.community_notice_content_tr{
+		height:30px;
+	}	
+.community_notice_content_td{
+		text-align:center; 
+		width:600px;
+	}
+.community_notice_content_title{
+		width:125; 
+		text-align:left;
+	}
+.community_notice_content_num{
+		text-align:left;
+	}
+.community_notice_content_readcnt{
+		text-align:left;
+	}
+.community_notice_content_writer{
+		text-align:left;
+	}
+.community_notice_content_date{
+		text-align:left;
+	}
+tr.community_notice_content_view{
+		text-align:left;
+		width:900px;
+		height:300px;
+		padding: 10px;
+	}	
+.community_notice_content_pre{
+		margin-left:15px;
+	}
+.community_notice_update_button{
+		background-color:#f4efe1;
+		border-radius: 6px;
+		border: 1px solid #c9c9b2;
+		cursor: pointer;
+		margin-bottom:5px;
+		padding:5px;
+	}
+.community_notice_update_button:hover{
+		border: 1px solid black; 
+		cursor: pointer;
+	}
+.community_notice_delete_button{
+		background-color:#f4efe1;
+		border-radius: 6px;
+		border: 1px solid #c9c9b2;
+		cursor: pointer;
+		margin-bottom:5px;
+		padding:5px;
+	}
+.community_notice_delete_button:hover{
+		border: 1px solid black; 
+		cursor: pointer;
+	}
+.community_notice_list_button{
+		background-color:#f4efe1;
+		border-radius: 6px;
+		border: 1px solid #c9c9b2;
+		cursor: pointer;
+		margin-bottom:5px;
+		padding:5px;
+	}
+.community_notice_list_button:hover{
+		border: 1px solid black; 
+		cursor: pointer;
+	}
+.community_notice_update_button_div{
+		width:900px;
+		text-align:right;
+	}
+.community_notice_reply{
+		width:900px;
+		margin-top: 55px;
+		margin-bottom: 20px;
+		border-top: 1px solid #c9c9b2;
+		border-bottom: 1px solid #c9c9b2;
+	}
+.community_notice_reply_table{
+		width:900px;
+		border-spacing: 0 15px;
+	}
+.community_notice_reply_write{
+		width:900px;
+		height:70px;
+		border-spacing: 0 10px;
+	}
+.community_notice_nickname{
+		width:10%;
+	}
+.community_notice_textarea{
+		width:40%;
+	}
+.community_notice_textarea_write{
+		width:98%;
+		height:67px;
+		resize: none;
+		border-radius: 6px;
+	}
+.community_notice_apply{
+		width:10%;
+	}
+.community_notice_apply_button{
+		margin-left:15px;
+		margin-bottom:3px;
+		width:73px;
+		height:73px;
+		background-color:#f4efe1;
+		border-radius: 6px;
+		border: 1px solid #c9c9b2;		
+	}
+.community_notice_apply_button:hover{
+		border: 3px solid silver;
+	    cursor: pointer;
+	}
+.community_notice_reply_text{
+		width:40%;
+	}
+.community_notice_date{
+		width:50px;
+		text-align:right;
+}
+/* ==== 푸터 ==== */
+.goods_detail_footer {		
+	text-align:center;
+	padding-left:18%;
+	width:100%;
+	margin: 0 auto; 
+	position: absolute;
+}
+
+.wish_footer{
+	text-align:center;
+	padding-left:18%;
+	width:100%;
+	margin: 0 auto;  
+	position: absolute;
+	bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

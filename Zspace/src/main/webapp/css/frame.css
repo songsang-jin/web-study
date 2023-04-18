@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@font-face { 
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}  
+body{
+ 	font-family:'S-CoreDream-3Light';
+}   
+
+.header {
+	width: 68%;
+	margin-left: 430px;
+}
+
+.main {
+	width: 65%;
+	margin-left: 430px;
+}
+		
+#leftbar{
+	width:310px;
+	position:fixed;
+	padding:30px;
+	box-sizing:border-box;
+	background-color:beige;
+	height:100%;
+}
+		
+.footer {
+    bottom: 0;	
+    padding-top:3%;
+}
+
+.footerdiv {		
+	text-align:center;
+	width:100%;
+	margin: 0 auto; 
+	padding-left:10%;
+}
+
+.all{
+	width:100%;
+	overflow: hidden;
+}
+
+.title{
+	width: 99%;
+    height: 35px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #444444;
+    border: 1px solid #e9e9e9;
+    padding-left: 10px;
+    margin: 30px 0px 30px 0px;
+}
+
+.small img{border:none;margin:10px;width:60px;height:60px;}
+	
+.large{border:none;width:450px;height:450px;}
+
+.ul{
+	list-style : none; /* 아무 표시 없음 */
+}
+
+.delivery{
+	list-style:none;
+	
+}
+
+.guide{
+	margin-top:100px;
+}
+
+.button wish{
+	margin-left:10px;
+}
+
+
+/* 글 쓰기*/
+.wrtie_cancel{
+	margin-left:5px;
+}
+
+.write_reg{
+	background-color: rgb(34, 34, 34);
+	color:white;
+}
+
+	
+	

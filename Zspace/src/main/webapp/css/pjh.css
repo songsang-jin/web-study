@@ -1,0 +1,434 @@
+@charset "UTF-8";
+
+@font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+body{
+    font-family:'S-CoreDream-3Light';
+}
+
+
+
+
+.faqPost_main{
+  padding-top:5%;
+
+}
+
+.eventPost_main{
+  padding-top:5%;
+
+}
+
+
+.findPost_main{
+  padding-top:5%;
+
+}
+
+
+.cancelPost_main{
+  padding-top:5%;
+
+}
+
+
+
+
+.faqPost_paging{
+	margin-left:44%;
+}
+
+.eventPost_paging{
+	margin-left:44%;
+}
+
+.findPost_paging{
+	margin-left:44%;
+}
+
+.cancelPost_paging{
+	margin-left:44%;
+}
+
+
+
+.faqPost_paging li{
+	list-style:none;
+	float:left;
+	letter-spacing:10px;
+}
+
+.eventPost_paging li{
+	list-style:none;
+	float:left;
+	letter-spacing:10px;
+}
+
+
+.findPost_paging li{
+	list-style:none;
+	float:left;
+	letter-spacing:10px;
+}
+
+.cancelPost_paging li{
+	list-style:none;
+	float:left;
+	letter-spacing:10px;
+}
+
+
+.faqPost_write{
+	float:right;
+}
+
+.cancelPost_write{
+	float:right;
+}
+
+.eventPost_write{
+	float:right;
+}
+
+.faqPost_bottomsearch{
+	float:right;
+	margin-top:5%;
+}	
+
+.eventPost_bottomsearch{
+	float:right;
+	margin-top:5%;
+}	
+
+.findPost_bottomsearch{
+	float:right;
+	margin-top:5%;
+}	
+
+
+.cancelPost_bottomsearch{
+	float:right;
+	margin-top:5%;
+}	
+
+.postView_posttable{
+	width:100%;
+	border:1px solid rgb(192, 192, 192);
+	border-left:0;
+	border-right:0;
+}
+
+.postView_movetable{
+	width:100%;
+	border:1px solid rgb(192, 192, 192);
+	border-left:0;
+	border-right:0;
+}
+.postView_posttable th, .postView_posttable td {
+  border:1px solid rgb(192, 192, 192);
+  padding:10px;
+  	border-left:0;
+	border-right:0;
+}
+
+.postView_movetable th, .postView_movetable td{
+  border:1px solid rgb(192, 192, 192);
+  padding:10px;
+  	border-left:0;
+	border-right:0;
+ 
+}
+
+.postView_posttable td{
+  width:90%;
+}
+
+.postView_movetable td{
+  width:90%;
+}
+
+.postView_buttonarea{
+margin-bottom:5%
+}
+
+
+.postView_buttonarea button{
+	float:right;
+	margin-right:0.5%
+}
+
+
+.postView_movetablearea{
+margin-top:10%;
+}
+
+
+
+#myPage_contents{
+	padding:4% 5% 30% 5%;
+	margin-left:310px;
+}
+
+
+.myPage_main{
+	border: 1px solid gray;
+	padding-top: 1%;
+	width:30%;
+	float:left;
+}
+
+.myPage_main li{
+	list-style:none;
+}
+
+.myPage_check {
+    width: 90%;
+    /* float: right; */
+    padding-left: 13%;
+    padding-bottom: 2%;
+}
+
+.myPage_check a{
+	text-decoration: none;
+	color:black;
+}
+
+
+.myPage_order{
+ 	border:1px solid gray;
+ 	margin-bottom:3%;
+ 	padding-left:3%;
+ 	padding-bottom:1%;
+}
+
+.myPage_profile{
+ 	border:1px solid gray;
+ 	margin-bottom:3%;
+  	padding-left:3%;
+ 	padding-bottom:1%;
+}
+
+.myPage_cart{
+ 	border:1px solid gray;
+ 	margin-bottom:3%;
+  	padding-left:3%;
+ 	padding-bottom:1%;
+}
+
+.myPage_wishlist{
+ 	border:1px solid gray;
+ 	margin-bottom:3%;
+  	padding-left:3%;
+ 	padding-bottom:1%;
+}
+
+.myPage_point{
+ 	border:1px solid gray;
+ 	margin-bottom:3%;
+  	padding-left:3%;
+ 	padding-bottom:1%;
+}
+
+.myPage_post{
+ 	border:1px solid gray;
+  	padding-left:3%;
+ 	padding-bottom:1%;
+}
+
+
+.myPage_main_won{
+	float:right;
+}
+
+.myPage_pointarea{
+  	padding-right:10%;
+}
+
+
+#pay_contents{
+	padding:4% 5% 30% 5%;
+	margin-left:310px;
+}
+
+.pay_ordertable{
+	width:100%;
+}
+
+.page{
+	text-align:center;
+}
+
+
+.pay_ordertalbehead{
+	border:1px solid gray;
+	border-left:0;
+	border-right:0;
+}
+
+.pay_ordertalbebody{
+	border:1px solid gray;
+	border-left:0;
+	border-right:0;
+}
+
+.pay_ordertalbefoot{
+	border:1px solid gray;
+	border-left:0;
+	border-right:0;
+}
+
+
+
+
+
+.pay_right{
+	float:right;
+}
+
+.pay_back{
+	margin-top:2%;
+}
+
+.pay_prev{
+	float:right;
+}
+
+.pay_tobody{
+	margin-top:7%;
+}
+
+
+.pay_bodytable{
+	margin-top:2%;
+	width:100%;
+}
+
+.pay_bodytable0{
+	width:100%;
+}
+
+
+.pay_bodytable1{
+  	border:1px solid gray;
+  	border-top:0;
+	border-left:0;
+	border-right:0;
+}
+
+.pay_bodytable2{
+  	border:1px solid gray;
+	border-left:0;
+	border-right:0;
+}
+
+.pay_bodytable3{
+  	border:1px solid gray;
+	border-left:0;
+	border-right:0;
+}
+
+.pay_bodytable4{
+  	border:1px solid gray;
+	border-left:0;
+	border-right:0;
+}
+
+.pay_bodytable5{
+  	border:1px solid gray;
+	border-left:0;
+	border-right:0;
+}
+
+.pay_bodytable6{
+  	border:1px solid gray;
+	border-left:0;
+	border-right:0;
+}
+
+.pay_bodytable1area{
+	margin-top:2%;
+	margin-left:2%;
+	margin-bottom:2%;
+}
+
+.pay_bodytable2area{
+	margin-top:2%;
+	margin-left:2%;
+	margin-bottom:2%;
+}
+
+.pay_bodytable3area{
+	margin-top:2%;
+	margin-left:2%;
+	margin-bottom:2%;	
+}
+
+.pay_bodytable4area{
+	margin-top:2%;
+	margin-left:2%;
+	margin-bottom:2%;	
+}
+
+.pay_bodytable5area{
+	margin-top:2%;
+	margin-left:2%;
+	margin-bottom:2%;	
+}
+
+.pay_bodytable6area{
+	margin-top:2%;
+	margin-left:2%;
+	margin-bottom:2%;	
+}
+
+.pay_totalpayleft{
+	text-align:left; /*center에서 변경*/
+	float:left;
+	margin-top:5%;
+	margin-bottom:1%;
+	padding-left:2%;
+	width:50%;
+}
+
+.pay_totalpayright{
+	text-align:right; /*center에서 변경*/
+	float:right;
+	margin-top:5%;
+	margin-bottom:1%;
+	padding-right:2%;
+	width:50%;
+}
+
+.pay_bottomleft{
+ 	float:left;
+ 	border-top:1px solid gray;
+ 	width:50%;
+ 	padding-top:2%;
+ 	padding-left:2%;
+}
+
+.pay_bottomright{
+	text-align:right;
+	float:right;
+ 	border-top:1px solid gray;
+ 	width:50%;
+ 	padding:2% 2% 2% 0;
+ }
+
+.pay_last{
+	text-align:right;
+	float:right;
+	padding-top:2%;
+	width:100%;
+ 	padding-right:2%;
+	font-size:15px;
+	border-top:3px double gray;
+}
+
+.btsearch{
+	float:right;
+}

@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@font-face { 
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}           
+
+body, html, div{
+ 	font-family:'S-CoreDream-3Light';
+}   
+*{
+	margin: 0;
+	padding: 0;
+} 
+/*가장위에 넣어둘것!*/
+
+/*SIDE 부분*/
+#leftbar{
+   width:310px;
+   position:fixed;
+   padding:30px;
+   box-sizing:border-box;
+   background-color:#f4efe1;
+   height:100%;
+}
+/*내용 전체 위치 조절 0326추가*/
+.menu_wrap {
+	padding-left:15px;
+}
+.logo{
+	padding-left:15px;
+}
+
+/*목록 hover시 보이는부분*/
+.side_wrap .sub_menu {
+	display: none;
+	list-style: none;
+	}
+
+.menu_cell:hover .sub_menu {
+  display: block;
+  }
+
+.menu_group {
+display: flex;
+min-height:60px;/*높이조절하는부분*/
+	overflow: auto;
+
+}
+/*단어간 높이조절*/
+.menu_group a{line-height: 2;}
+.menu_cell a{ line-height: 2;}
+.logo {padding-bottom: 20px;}
+
+/*글씨색상 */
+.menu_wrap  a {
+  color: black; 
+  text-decoration: none; /* 밑줄 제거 */
+  }
+.menu_wrap  a:visited {
+  color: black; 
+}
+.menu_wrap  a:hover {
+  color: #8b8477; 
+  text-decoration: none; 
+}    
+ 
+/*side 위치 조절*/
+.side_list {
+	display: flex;
+	min-height: 250px;
+	overflow: auto;
+}
+.side_wrap {
+	flex: 1;
+}
+.slid_footer{	
+  width: 100%;
+  position:absolute;
+  bottom:1px;
+  }
+
+/*검색창*/
+.search_menu {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.search_menu input[type="text"] {
+  padding-right: 80px;
+  width: 190px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fffaf2;
+  border: 1px solid #ccc;
+}
+
+.search_menu .material-icons {
+  position: absolute;
+  font-size: 18px;
+  right:50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*검색창끝*/
+
+/* 전체 메인을 묶어주는 부분 */
+#contents {
+	padding:4% 5% 30% 5%;
+	margin-left:310px; 
+}
+
+/*FOOTER 부분*/
+.footer {
+	margin-left:310px;
+	bottom: 0px;
+	width:70%;
+}
+
+.footerdiv {		
+	text-align:center;
+	width:100%;
+	margin: 0 auto; 
+
+}

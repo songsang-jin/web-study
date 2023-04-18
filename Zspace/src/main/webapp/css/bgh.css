@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+.font-face {
+    font-family: 'S-CoreDream-3Light';
+    src:
+        url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.body {
+    font-family: 'S-CoreDream-3Light';
+}
+/*장바구니 css */
+
+/*장바구니 이름*/
+.cart_num_sangpum {
+   margin-left: 7%;
+   top: 80%;
+}
+/*테이블표*/
+.cart_num_main {
+    width: 80%;
+    margin-left: 12%;
+   text-align: center;
+}
+/*테이블표 상단 컬러 */
+.cart_num_color {
+   background-color: #f4efe1;
+}
+/*총 금액부분 */
+.cart_num_gBorder {
+   margin-left: 30%; 
+    margin-top: 3%; 
+   text-align: center;
+}
+/*  상품 주문하기,삭제하기 부분*/
+.cart_num_ec-base-button {
+   margin-left: 73%;
+}
+
+/*관심상품 */
+.wish_list_code_color{
+    background-color: #f4efe1;
+}
+/*테이블표*/
+.wish_list_code_main {
+    width: 68%;
+   position: relative;
+    margin-left: 12%;
+    margin-top: 8%;
+}
+
+/* 관심상품 밑 주문하기 삭제 장바구니담기 */
+.wish_list_code_contents {
+    margin-left: 90%; 
+    margin-bottom:2%
+   /* position: absolute;
+     margin-top: 15%;*/
+}
+/* 제목 */
+.wish_list_code_title {
+   margin-left: 7%;
+    top: 100px;
+    position: absolute;
+} 
+
+
+/*내역 css */ 
+
+*탭부분*/
+.container {
+/*     padding-left: 15px; */
+    position: fixed;
+    top: 12%;
+}
+
+ul.tabs {
+    list-style: none;
+    position: static
+}
+
+ul.tabs li {
+    background: none;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+/*breakdown 테이블표 색상*/
+ul.tabs li.current {
+    background-color: #f4efe1;
+}
+/*테이블 색상및 위치조정*/
+#admin_page_tr{
+	background-color: #f4efe1;
+}
+
+/*breakdown 테이블표*/
+.tab-content {
+    display: none;
+    position: absolute;
+    top: 20%;
+    width: 65%;
+}
+
+/*breakdown 테이블표 주문내역조회*/
+.tab-content.current {
+    display: inherit;
+}
+  /*날짜*/
+  .calendar {
+    top:20%;
+    position: absolute;
+}

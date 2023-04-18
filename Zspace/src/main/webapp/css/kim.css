@@ -1,0 +1,167 @@
+/*글씨체적용*/
+@font-face {
+     font-family: 'S-CoreDream-3Light' 'AritaDotumBold', sans-serif, serif;
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+/*S-core가 안먹힐시 뒤에 넣은 폰트들 적용(0326시도중)*/
+body{
+    font-family:'S-CoreDream-3Light', 'AritaDotumBold', sans-serif, serif;
+   
+}
+
+/*전체틀 조정container *contents*/   
+ #container{
+ 	margin-left: 310px;
+ 	position: absolute;	
+    padding-left:5%;
+	padding-right:5%;	
+	padding-top:2%;
+} 
+ .conent {	
+ 	position: initial;	
+	width:100%; 
+}
+
+ .conent_slider {
+	margin:0px auto;	
+	background-color: #f4efe1; height: 30%;
+}
+
+ .conent_list {	
+	margin:0px auto;	
+	width:100%; 	
+	height: 100%;	
+	padding-top:10%;
+}
+
+
+
+
+
+/*3.슬라이더부분 slideshow-container*/
+
+.slider{
+	 width:100%;
+	 height:100%;
+}
+
+.m_slide{
+  width:100%;
+  margin:0px auto;
+  position:relative;
+  transition: margin-left 0.5s;
+}
+.m_slide> ul{
+  /* width:6400px; */
+  width:400%;
+  display:flex;
+}
+.m_slide > ul > li{width:100%;}
+.m_slide img{width:100%;}  /* 이미지 크기 자동조절 */
+
+
+/*btn*/
+ .slide-btns > div >button{
+  position:absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  opacity:0.5;
+  border-radius:50px;
+  font-size:25px;
+  cursor:pointer;
+  padding: 10px 10px;
+}
+
+.slide-btns > div >button#btnNext {
+  top:50%;
+  left:auto;
+  right:40px;
+}
+.slide-btns > div > button#btnPrev{
+  top:50%;
+  left:30px;
+  transform:translatey(-50%);
+}
+
+.slideshow-container {
+  width: 100%;
+  overflow: hidden;
+}
+.slider-wrapper {
+    overflow: hidden;
+}
+
+
+/*4.conent_list*/
+
+/*이미지설정*/
+.warp {
+	min-width: 250px; /* 이미지의 최소 너비 */
+  	min-height: 250px; /* 이미지의 최소 높이 */
+}
+
+.warp >a> img {	
+	margin-top: 10px; 
+	margin-bottom: 10px; 
+	border: 3px solid #90827a;
+	
+	position: relative;
+	cursor: pointer;
+	transition:0.5s ease;
+	overflow: hidden;
+	background-color: #90827a ;
+	
+	list-style-type: none;
+}
+
+.warp:hover .text{
+  opacity: 1.0;
+}
+.warp:hover .img{
+  opacity: 0.3;
+} 
+
+.text2{
+	font-size: 2.7rem;
+}
+
+.text{
+	font-size: 1.8rem; /*폰트사이즈.*/
+	position: absolute;
+	padding: 5px 10px;
+	text-align: center;
+	
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );	
+	transition: .5s ease;  
+	opacity: 0;
+	color:black;
+	z-index:50;
+	
+} 
+
+
+/* 5.하단부분 	*/
+/*메인페이지 하단조절*/
+.ftsizeout{
+    width: 100%;
+    padding-top: 5%;  
+    padding-right: 15%; 
+     position: absolute;
+     bottom: 0;   
+    padding-top:3%;
+}
+.ftsizein{
+	padding-top: 5%;  
+    padding-right: 25%; 
+    width:100%;
+    position: absolute;
+    margin: 0 auto; 
+    padding-left:12%;
+    text-align:center;
+}
+
